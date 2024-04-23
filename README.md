@@ -32,7 +32,7 @@ dataset 用于选择训练的数据集, 默认为[]。coco-mini-en-2是对应的
 
 #### 自定义数据训练
 1. 创建自定义数据集
-   [自定义数据集](../LLM/自定义与拓展.md#-推荐命令行参数的形式)支持**json, jsonl**样式, 以下是自定义数据集的例子:
+   [自定义数据集]([../LLM/自定义与拓展.md](https://github.com/modelscope/swift/blob/main/docs/source/LLM/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%8E%E6%8B%93%E5%B1%95.md#-%E6%8E%A8%E8%8D%90%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0%E7%9A%84%E5%BD%A2%E5%BC%8F)#-推荐命令行参数的形式)支持**json, jsonl**样式, 以下是自定义数据集的例子:
 (支持多轮对话, 但总的轮次对话只能包含一张图片, 支持传入本地路径或URL)
 ```jsonl
 [{"query": "55555", "response": "66666", "images": ["image_path"]}, {"query": "55555", "response": "66666", "images": ["image_path"]},...]
