@@ -54,4 +54,10 @@ swift sft \
     model_id_or_path 指定本地下载模型路径
     custom_train_dataset_path 指定本地符合模型规范的训练数据：**json/jsonl/csv 格式**
     
-   
+### 参考
+1. https://modelscope.cn/models/OpenBMB/MiniCPM-V-2/files
+2. http://yjs.dasizhe.cn/?article/1484488
+3. https://github.com/modelscope/swift/blob/main/docs/source/LLM/LLM%E5%BE%AE%E8%B0%83%E6%96%87%E6%A1%A3.md#%E5%BE%AE%E8%B0%83
+4. https://github.com/modelscope/swift/blob/main/docs/source/LLM/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%8E%E6%8B%93%E5%B1%95.md#-%E6%8E%A8%E8%8D%90%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0%E7%9A%84%E5%BD%A2%E5%BC%8F
+5. https://github.com/modelscope/swift/blob/main/examples/pytorch/llm/scripts/minicpm_moe_8x2b/lora_ddp/sft.sh
+6. https://github.com/modelscope/swift/blob/main/docs/source/Multi-Modal/minicpm-v-2%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md
