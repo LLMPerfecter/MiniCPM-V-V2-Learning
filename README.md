@@ -3,7 +3,8 @@
 #### 官方数据模型训练
 使用==*swift*==框架微调模型
 ##### 环境准备
-```git clone https://github.com/modelscope/swift.git
+```
+git clone https://github.com/modelscope/swift.git
 cd swift
 pip install -e .[all]
 ```
